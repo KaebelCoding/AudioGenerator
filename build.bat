@@ -1,0 +1,1 @@
+g++ src\main.cpp src\BudgetPlanner.cpp -Iinclude\ -o BudgetPlanner

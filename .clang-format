@@ -1,0 +1,42 @@
+BreakBeforeBraces: Linux
+Language: Cpp
+AccessModifierOffset: -4
+IndentWidth: 4
+ColumnLimit: 80
+TabWidth: 4
+UseTab: ForIndentation
+Cpp11BracedListStyle: false
+AlignAfterOpenBracket: Align
+
+AlignConsecutiveDeclarations: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveMacros: true
+AlignEscapedNewlinesLeft: true
+AlignOperands: true
+
+AlignTrailingComments: Always
+AllowShortBlocksOnASingleLine: Always
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+
+FixNamespaceComments: true
+NamespaceIndentation: All
+SpaceAfterLogicalNot: false
+SpaceAroundPointerQualifiers: Default
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeJsonColon: true
+SpaceBeforeParens: Always
+SpaceBeforeParensOptions:
+  AfterControlStatements: true
+  AfterForeachMacros: true
+  AfterFunctionDeclarationName: true
+  AfterOverloadedOperator: true
+SpaceInEmptyBlock: false
+SpaceBeforeSquareBrackets: false
+SpaceBeforeRangeBasedForLoopColon: true
+SpacesBeforeTrailingComments: 4
+SpacesInAngles: Never
+SpacesInContainerLiterals: false
+SpacesInSquareBrackets: false
+
+IncludeBlocks: Preserve
